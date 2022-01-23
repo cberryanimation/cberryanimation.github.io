@@ -1,0 +1,52 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Untitled Document</title>
+	<style>
+		/* Minimal CSS Reset */
+		*,
+		*::before,
+		*::after {
+			box-sizing: border-box; /* ensure predictable sizing in box model */
+			margin: 0; /* reset all margins to 0 */
+			padding: 0; /* reset all padding to 0 */
+		}
+		.wrapper {
+			margin: 1em auto; /* center content */
+			max-width: 960px; /* responsive maximum width */
+			padding: 10px; /* breathing room for content  */
+			border: 1px solid red; /* remove this style - show wrapper boundary */
+		}
+		header {
+			border: 1px solid green; /* remove this style - show header boundary */
+		}
+		.content {
+			margin: 1em 0;
+			border: 1px solid blue; /* remove this style - show content boundary */
+		}
+		footer {
+			border: 1px solid orange; /* remove this style - show footer boundary */
+		}
+	</style>
+	
+</head>
+
+<body>
+	<div class="wrapper">
+		<header>
+			<p>Header goes here</p>
+		</header>
+		
+		<div class="content">
+			<h1>Heading Text</h1>
+			<p>Content goes here</p>
+		</div> <!-- /.content -->
+		
+		<footer>
+			<p>Footer goes here</p>
+		</footer>
+	</div>
+</body>
+</html>
