@@ -71,6 +71,10 @@ a:hover {
 	color: rgb(255,255,255);
 }
 
+a#pages {
+    font-size: 16px;
+}
+
 .dropdown-projects, .dropdown-collections {
 	position: relative;
 	display: inline-block;
